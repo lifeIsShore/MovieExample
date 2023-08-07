@@ -14,29 +14,6 @@ To use the `Movie` class, follow these steps:
 
 4. Create `Movie` objects and manipulate their attributes as needed.
 
-### Example
-
-```java
-import Movie.Movie;
-
-public class MovieTest {
-    public static void main(String[] args) {
-        // Create a new movie object
-        Movie movie = new Movie("The Shawshank Redemption", "Frank Darabont", 1994, 9.3);
-
-        // Display movie details
-        System.out.println("Movie Details:");
-        System.out.println("Name: " + movie.getMovieName());
-        System.out.println("Director: " + movie.getDirectorName());
-        System.out.println("Release Year: " + movie.getReleaseYear());
-        System.out.println("Rating: " + movie.getRating());
-
-        // Update the movie's rating
-        movie.setRating(9.5);
-        System.out.println("Updated Rating: " + movie.getRating());
-    }
-}
-
 
 # Movie Class
 
